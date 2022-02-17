@@ -1,12 +1,11 @@
-function getMaxNum(num) {
-    let max = infinity
 
+function getMaxNum(input) {
+      let max = -Infinity;
 
-    for (let i=0; i < arguments.length; i++) {
+      for (let i=0; i < arguments.length; i++) {
          if (arguments[i] > max) {
                  max = arguments[i];
          } return  max;
     }
-
-    console.log(getMaxNum(num));
-         }
+}
+    console.log(getMaxNum(5, 8, 10, 21))

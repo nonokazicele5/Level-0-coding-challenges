@@ -1,7 +1,7 @@
-let y = "pineapples";
-let z= "piper";
+function commonCharacters(string1, string2) {
+     
+     let output = [];
 
-const commonCharacters = function (string1 ,string2) {
  let duplicateCharacter = "";
     for (let i = 0; i < string1.length; i += 1) {
     if (duplicateCharacter.indexOf(string1[i]) === -1) {
@@ -13,4 +13,4 @@ const commonCharacters = function (string1 ,string2) {
 return [...duplicateCharacter];
 };
 
-console.log(commonCharacters(x, y));
+console.log(commonCharacters("Birds flying high", "garden of flowers"));

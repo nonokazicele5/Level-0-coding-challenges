@@ -1,6 +1,9 @@
 //area of triangle
-function areaOfTriangle(a, b, c) {}
-   let s = (a + b + c) / 2;
-   return Math.sqrt( s* (s - a) * (s - b) * (s - c));
 
-console.log(areaOfTriangle(a, b ,c));
+function areaOfTriangle(side1, side2, side3) {
+   
+   let s = (side1 + side2 + side3) / 2;
+   return Math.sqrt( s* (s - side1) * (s - side2) * (s - side3));   
+}
+
+console.log(areaOfTriangle(9, 15, 22));
