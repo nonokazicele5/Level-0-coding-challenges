@@ -1,40 +1,16 @@
-function printVowels (input) {
-   let output = [];
+function printVowels(str) {
+      const vowels = new Set();
 
-   for (i=0; i < input.length; i++) {
-       switch (input[i])  {
-           case 'a':
-               output.push(input[i]);
-               break;
-           case 'e':
-               output.push(input[i]);
-               break;
-          case 'i':
-              output.push(input[i]);
-              case 'o':
-                output.push(input[i]);
-                break;
-            case 'u':
-                output.push(input[i]);
-                break;
-           case 'A':
-               output.push(input[i]);
-           case 'E':
-                output.push(input[i]);
-                break;
-            case 'I':
-                output.push(input[i]);
-                break;
-           case 'O':
-               output.push(input[i]);
-               case 'U':
-                output.push(input[i]);
-                break;
-            
-           }
-     }
-     return "Vowels: " + output.toString();
- }
-          
-         console.log( printVowels( "Peter Piper picked a pack of peppers"))
-
+    for ( let i = 0; i < str.length; i++)   {
+         if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u' || str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U') {
+              
+            vowels.add(str[i]);
+    }
+}
+       for (let item of vowels)  {
+           console.log(item);
+       }             
+    }
+    
+       printVowels("Peter Adams picked a pack of prickled peppers")
+              

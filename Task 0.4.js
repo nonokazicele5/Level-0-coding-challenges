@@ -1,10 +1,8 @@
 
 function evenOrOdd(num) {
-    if ( num % 2 == 0) {
-        return "Even number";
-    }else {
-        return "Odd number";
-    }
-}
+ 
+  num%2==0? console.log( `${num} is even`): console.log(`${num} is odd`);
 
-console.log(evenOrOdd(80)) 
+    }
+
+   evenOrOdd(22);

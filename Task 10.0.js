@@ -1,6 +1,5 @@
-function commonCharacters(string1, string2) {
-     
-     let output = [];
+function commonCharacters( string1 , string2)   {
+   
 
  let duplicateCharacter = "";
     for (let i = 0; i < string1.length; i += 1) {
@@ -10,7 +9,7 @@ function commonCharacters(string1, string2) {
     }
   }
 }
-return [...duplicateCharacter];
+return duplicateCharacter
 };
 
 console.log(commonCharacters("Birds flying high", "garden of flowers"));
