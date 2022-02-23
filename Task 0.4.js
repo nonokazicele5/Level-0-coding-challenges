@@ -5,4 +5,4 @@ function evenOrOdd(num) {
 
     }
 
-   evenOrOdd(22);
+   evenOrOdd(91);
